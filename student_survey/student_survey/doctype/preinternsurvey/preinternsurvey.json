@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "autoname": "format:SS-{DD}-{MM}-{YYYY}-{####}",
+ "creation": "2025-06-28 04:40:27.908424",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "email_address",
+  "contact_number",
+  "skill_sets",
+  "learning_interests",
+  "project_information"
+ ],
+ "fields": [
+  {
+   "description": "Please add your full name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "length": 144,
+   "reqd": 1
+  },
+  {
+   "description": "Please add a contact email address",
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email Address",
+   "options": "Email",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "description": "Please add your contact mobile number",
+   "fieldname": "contact_number",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Contact Number",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "description": "What are your technical interests",
+   "fieldname": "learning_interests",
+   "fieldtype": "Data",
+   "label": "Learning Interests",
+   "length": 255
+  },
+  {
+   "description": "Along with your project details please also add if there are any repositories that you have contributed on github or if you have any repository on github",
+   "fieldname": "project_information",
+   "fieldtype": "Text Editor",
+   "label": "Project Information"
+  },
+  {
+   "description": "Add technical skill sets. like java, sql",
+   "fieldname": "skill_sets",
+   "fieldtype": "Data",
+   "label": "Technical Skill Sets"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-28 05:40:16.509757",
+ "modified_by": "Administrator",
+ "module": "Student Survey",
+ "name": "PreInternSurvey",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
