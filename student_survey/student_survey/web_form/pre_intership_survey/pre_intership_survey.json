@@ -21,7 +21,7 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2025-06-28 06:15:52.644999",
+ "modified": "2025-06-28 13:37:03.080909",
  "modified_by": "Administrator",
  "module": "Student Survey",
  "name": "pre-intership-survey",
@@ -31,7 +31,7 @@
  "show_attachments": 0,
  "show_list": 0,
  "show_sidebar": 0,
- "success_message": "Successfully Submitted",
+ "success_message": "We have received your details successfully.",
  "success_title": "Submitted",
  "title": "Pre Intership Survey",
  "web_form_fields": [
@@ -78,7 +78,8 @@
   },
   {
    "allow_read_on_all_link_options": 0,
-   "description": "Please enter your contact email address",
+   "default": "+91-",
+   "description": "Please enter your contact phone number.\nPlease do not forget to select the country code",
    "fieldname": "contact_number",
    "fieldtype": "Phone",
    "hidden": 0,
@@ -92,7 +93,7 @@
   },
   {
    "allow_read_on_all_link_options": 0,
-   "description": "Please enter your technical skill sets",
+   "description": "Please enter your technical skill sets.\nFor eg:- Programming languages, databases, IDE",
    "fieldname": "skill_sets",
    "fieldtype": "Data",
    "hidden": 0,
