@@ -21,7 +21,7 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2025-06-28 13:37:03.080909",
+ "modified": "2025-06-28 13:46:29.402222",
  "modified_by": "Administrator",
  "module": "Student Survey",
  "name": "pre-intership-survey",
@@ -79,7 +79,7 @@
   {
    "allow_read_on_all_link_options": 0,
    "default": "+91-",
-   "description": "Please enter your contact phone number.\nPlease do not forget to select the country code",
+   "description": "Please enter your contact phone number.",
    "fieldname": "contact_number",
    "fieldtype": "Phone",
    "hidden": 0,
